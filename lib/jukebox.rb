@@ -55,3 +55,5 @@ def run
     when "play"
       play(songs)
     end
+  end 
+end
