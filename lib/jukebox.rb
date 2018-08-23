@@ -49,6 +49,7 @@ def run
     when "help"
       help
     when "exit" 
+      exit_jukebox
       break
     when "list"
       list(songs)
