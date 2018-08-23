@@ -46,4 +46,12 @@ def run
   input = gets.chomp 
   loop do 
     case input
-    when 
+    when "help"
+      help
+    when "exit" 
+      break
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    end
